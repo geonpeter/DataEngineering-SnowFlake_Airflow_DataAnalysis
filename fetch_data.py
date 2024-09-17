@@ -68,3 +68,6 @@ def fetch_data():
 
 fetch_data()
 
+
+
+
