@@ -1,5 +1,7 @@
 # Airflow DAG with Snowflake and GCP Integration
 
+![Workflow]![image](https://github.com/user-attachments/assets/df9e2546-4c90-40df-b62a-8c90e9e61420)
+
 ```sql
 
 # Airflow DAG with Snowflake and GCP Integration
@@ -207,4 +209,4 @@ Ensure the GCS stage is correctly set up in Snowflake with access to the Parquet
 
 Add necessary connection configurations to point to Snowflake and GCP.
 
-![Dag-Workflow]()
+![Dag-Workflow]![image](https://github.com/user-attachments/assets/bcb40d70-3f5c-463b-9928-0fd283ed5b35)
