@@ -65,8 +65,11 @@ def fetch_data():
     
     # Call the upload function with the correct variable values
     gcp_upload(bucket_name, source_path, destination_path)
+    os.remove(filename)
 
 fetch_data()
+
+
 
 
 
