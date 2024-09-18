@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.contrib.operators.snowflake import SnowflakeOperator
+from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
 from datetime import datetime,timedelta
 import datetime
 import os
